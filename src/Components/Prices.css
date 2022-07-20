@@ -2,10 +2,9 @@
     min-width: 320px;
     min-height: 490px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     padding: 15px;
-    
 
 }
 .priceHead{
@@ -59,4 +58,9 @@ button {
   
   button:active {
     transform: scale(0.9);
+  }
+  li{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.9em;
   }

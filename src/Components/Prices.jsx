@@ -15,15 +15,15 @@ function Prices(props) {
         border: "none"}}  />
 
         <h3>{props.data.title}</h3>
-        
+
         <hr style={{height: 1,
         backgroundColor: props.data.color,
         border: "none"}}  />
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>{props.data.li1} </li>
+            <li>{props.data.li2} </li>
+            <li>{props.data.li3} </li>
+            <li>{props.data.li4}</li>
         </ul>
         <button>Purchase</button>
 
