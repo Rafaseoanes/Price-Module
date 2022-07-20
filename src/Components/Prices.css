@@ -1,0 +1,62 @@
+.card{
+    min-width: 320px;
+    min-height: 490px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    
+
+}
+.priceHead{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.priceTitle{
+   /* background-color: #ffd861; */
+    width: 115px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 100%;
+    margin: 15px;
+
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* From uiverse.io by @adamgiebl */
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 38px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #a26bfc;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #a26bfc;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 0 #a26bfc;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #a26bfc;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
